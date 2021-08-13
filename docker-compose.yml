@@ -2,8 +2,8 @@ version: '3.7'
 services:
   app:
     image: node:lts-alpine
-    entrypoint: /bin/sh
     working_dir: /app
+    entrypoint: /bin/sh
     command: /app/start.sh
     volumes:
       - ./app-programas-estudos:/app
@@ -14,7 +14,8 @@ services:
   api:
     image: php:7-alpine
     working_dir: /var/www
-    command: php -S 0.0.0.0:8000 -t public
+    entrypoint: /bin/sh
+    command: /app/start.sh
     environment:
       docker: "true"
     ports:
