@@ -1,7 +1,6 @@
 # PROGRAMA DE ESTUDOS
 
-Exibe página de programa de estudos, baseado nos filtros escolhido pelo usuario (Banca e Orgão).
-O programa de estudos exibe uma arvore com assuntos e quantidade de questões disponíveis.
+Exibe página de programa de estudos, baseado nos filtros escolhidos pelo usuário (Banca e Órgão). O programa de estudos exibe uma árvore com assuntos e quantidade de questões disponíveis.
 
 ## Arquitetura
 
@@ -18,6 +17,10 @@ O programa de estudos exibe uma arvore com assuntos e quantidade de questões di
 3) DB
   - MySQL
 ```
+
+## MER
+![MER](https://drive.google.com/file/d/1jWnY4Ojxa3FLtit2FD1yTkSKYXmoOYWX/view "MER")
+
 
 ## INSTALAÇÃO
 
