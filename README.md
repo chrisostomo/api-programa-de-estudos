@@ -21,15 +21,15 @@ O programa de estudos exibe uma arvore com assuntos e quantidade de questões di
 
 ## INSTALAÇÃO
 
-- 1 Fassa o clone do Workspace
+- Clone do Workspace
 
-`git clone https://github.com/chrisostomo/programa-de-estudos.git`
+`   git clone https://github.com/chrisostomo/programa-de-estudos.git`
 
-- 2 Dentro da Workspace clone o back-end e o front-end
+- Dentro da Workspace clone o back-end e o front-end
 
-`git clone https://github.com/chrisostomo/api-programa-estudos.git`
+`   git clone https://github.com/chrisostomo/api-programa-estudos.git`
 
-`git clone https://github.com/chrisostomo/app-programas-estudos.git`
+`   git clone https://github.com/chrisostomo/app-programas-estudos.git`
 
 - A estrutura de pastas deve ficar assim:
 ```
@@ -48,6 +48,6 @@ O programa de estudos exibe uma arvore com assuntos e quantidade de questões di
 
 ```
 ...
-- O back-end roda na porta 8000.
+    IMPORTANTE: O back-end roda na porta 8000.
 ...
 ```
