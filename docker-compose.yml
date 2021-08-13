@@ -15,7 +15,7 @@ services:
     image: php:7-alpine
     working_dir: /var/www
     entrypoint: /bin/sh
-    command: /app/start.sh
+    command: /var/www/start.sh
     environment:
       docker: "true"
     ports:
